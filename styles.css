@@ -467,3 +467,36 @@ button:hover {
   top: 474px;
   background-image: url("./images/icon_add_btn.svg");
 }
+
+.contract-title-edit {
+  position: absolute;
+  width: 260px;
+  height: 39px;
+  left: 25px;
+  top: 32px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.contract-number-edit {
+  position: absolute;
+  width: 25px;
+  height: 24px;
+  right: 70px;
+  top: 68px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #868686;
+}
