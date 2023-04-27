@@ -1,0 +1,148 @@
+html,
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+  max-width: 390px;
+  margin: 0 auto;
+}
+
+.main {
+  padding: 30px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    padding: 30px 0 150px;
+    position: relative;
+  }
+}
+
+.main h1 {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.search {
+  position: relative;
+}
+
+.search input {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 8px 0 8px 40px;
+  color: #000000;
+  font-size: 1rem;
+}
+
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+
+.icon--eye {
+  width: 25px;
+  height: 25px;
+  background-image: url("./images/icon_eye.png");
+}
+
+.icon--add {
+  width: 40px;
+  height: 40px;
+  background-image: url("./images/icon_add.svg");
+}
+
+.icon--search {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 12px;
+  background-image: url("./images/icon_search.svg");
+}
+
+.contracts-list {
+  margin-top: 30px;
+}
+
+.contracts-list .contracts-list-header {
+  display: flex;
+  column-gap: 20px;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.contracts-list .list-item {
+  display: flex;
+  column-gap: 20px;
+  padding: 10px 15px;
+  background-color: rgba(223, 210, 250, 0.2);
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.contracts-list .list-item > div {
+  display: flex;
+  align-items: center;
+}
+
+.contracts-list .list-item .list-item-number {
+  font-size: 20px;
+  width: 35px;
+}
+
+.contracts-list .list-item-number {
+  width: 50px;
+}
+
+.contracts-list .list-item-name {
+  width: 130px;
+}
+
+.contracts-list .list-item-status {
+  width: 80px;
+}
+
+.contracts-list .list-item-archived {
+  width: 12px;
+}
+
+.contracts-list .list-item-action {
+  width: 25px;
+}
+
+.circle {
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: #5FBB73;
+  border-radius: 100%;
+}
+
+.circle--green {
+  background-color: #5FBB73;
+}
+
+.circle--red {
+  background-color: #C95151;
+}
+
+.floating-btn {
+  background: #5FBB73;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 100%;
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  right: 15px;
+  bottom: 60px;
+}
+
