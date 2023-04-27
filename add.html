@@ -1,27 +1,52 @@
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <title>Zarządzanie produktem</title>
-    <meta name="description" content="Super stronka na zarządzanie"/>
-    <meta name="author" content="Grupa "/>
-    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet"/>
+    <meta name="description" content="Super stronka na zarządzanie" />
+    <meta name="author" content="Grupa " />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="styles.css"/>
-</head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
-<div class="wrapper">
-    <div class="add">
-        <h1>Dodawanie nowego kontraktu</h1>
+  <body>
+    <div class="wrapper">
+      <div class="contract-details-add">
+        <section class="contract-detail-main-part">
+          <h1 class="contract-add-title">Dodawanie nowego kontraktu</h1>
+          <div class="content"></div>
+        </section>
+        <section class="body-part-add">
+          <fieldset class="name-credentials">
+            <legend class="imieINazwisko">Imię i Nazwisko*</legend>
+            <div class="contract-name">Anna Mucha</div>
+          </fieldset>
 
-        <div class="content">
-
-        </div>
-
+          <h2 class="dane-kontaktowe-title">Dane kontaktowe</h2>
+          <fieldset class="email-credentials">
+            <legend class="Telefon">E-mail*</legend>
+            <div class="contract-name">amucha@mail.com</div>
+          </fieldset>
+          <fieldset class="phone-credentials">
+            <legend class="Telefon">Telefon*</legend>
+            <div class="contract-name">+48 123 456 789</div>
+          </fieldset>
+          <button class="delete-btn" onclick="location.href='index.html'">
+            <span class="usun-text">Anuluj</span>
+          </button>
+          <span class="x-icon"></span>
+          <button class="add-contract-btn" onclick="location.href='edit.html'">
+            <span class="usun-text">Dodaj</span>
+          </button>
+          <span class="add-contract-icon"></span>
+        </section>
+      </div>
     </div>
-</div>
-</body>
+  </body>
 </html>

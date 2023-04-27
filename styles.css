@@ -122,20 +122,20 @@ body {
   display: block;
   width: 12px;
   height: 12px;
-  background-color: #5FBB73;
+  background-color: #5fbb73;
   border-radius: 100%;
 }
 
 .circle--green {
-  background-color: #5FBB73;
+  background-color: #5fbb73;
 }
 
 .circle--red {
-  background-color: #C95151;
+  background-color: #c95151;
 }
 
 .floating-btn {
-  background: #5FBB73;
+  background: #5fbb73;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 100%;
@@ -149,3 +149,321 @@ body {
   align-items: center;
 }
 
+.contract-details {
+  position: relative;
+  width: 390px;
+  height: 642px;
+
+  background: #ffffff;
+}
+
+.contract-title {
+  position: absolute;
+  width: 128px;
+  height: 39px;
+  left: 25px;
+  top: 32px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.contract-number {
+  position: absolute;
+  width: 25px;
+  height: 24px;
+  left: 170px;
+  top: 68px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #868686;
+}
+
+.body-part {
+  position: absolute;
+  width: 344px;
+  height: 523px;
+  left: 25px;
+  top: 97px;
+
+  /* Bg-violet */
+
+  background: rgba(223, 210, 250, 0.2);
+  border-radius: 10px;
+  margin-top: 26px;
+}
+
+.name-credentials {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 299px;
+  height: 56px;
+  left: 20px;
+  top: 40px;
+  font-size: 16px;
+
+  border-radius: 4px 4px 0px 0px;
+  align-items: left;
+  margin-bottom: 40px;
+}
+
+.imieINazwisko {
+  width: 95px;
+  height: 16px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #49454f;
+}
+
+.contract-name {
+  line-height: 33px;
+  margin-left: 20px;
+}
+
+.dane-kontaktowe-title {
+  position: absolute;
+  width: 165px;
+  height: 24px;
+  left: 25px;
+  top: 134px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.email-credentials {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 299px;
+  height: 56px;
+  left: 20px;
+  top: 200px;
+  font-size: 16px;
+  font-weight: 400;
+
+  border-radius: 4px 4px 0px 0px;
+  align-items: left;
+  margin-bottom: 40px;
+}
+
+.phone-credentials {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 299px;
+  height: 56px;
+  left: 20px;
+  top: 290px;
+  font-size: 16px;
+
+  border-radius: 4px 4px 0px 0px;
+  align-items: left;
+  margin-bottom: 40px;
+}
+
+.telefon {
+  margin-left: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #49454f;
+}
+
+.delete-btn {
+  position: absolute;
+  width: 95px;
+  height: 29px;
+  left: 135px;
+  top: 470px;
+
+  background: #e05f5c;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-color: transparent;
+  color: #ffffff;
+}
+
+.trash-icon {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 195px;
+  top: 476px;
+  background-image: url("./images/trashcan.svg");
+}
+
+.edit-btn {
+  position: absolute;
+  width: 95px;
+  height: 29px;
+  left: 240px;
+  top: 470px;
+
+  background: #4a9ee7;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-color: transparent;
+  color: #ffffff;
+}
+
+.usun-text {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.pen-icon {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 306px;
+  top: 475px;
+  background-image: url("./images/icon_pen.svg");
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.pen-icon-black {
+  position: absolute;
+  right: 10px;
+  margin-top: 7px;
+  width: 18px;
+  height: 18px;
+  background-image: url("./images/icon_pen_black.svg");
+}
+
+.tick-icon {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 195px;
+  top: 476px;
+  background-image: url("./images/icon_tick.svg");
+}
+
+.contract-add-title {
+  position: absolute;
+  width: 300px;
+  height: 78px;
+  left: 45px;
+  top: 32px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.contract-details-add {
+  position: relative;
+  width: 390px;
+  height: 642px;
+  background: #ffffff;
+}
+
+.body-part-add {
+  position: absolute;
+  width: 344px;
+  height: 523px;
+  left: 25px;
+  top: 125px;
+
+  /* Bg-violet */
+
+  background: rgba(223, 210, 250, 0.2);
+  border-radius: 10px;
+  margin-top: 26px;
+}
+
+.x-icon {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 200px;
+  top: 476px;
+  background-image: url("./images/x_icon.svg");
+}
+
+.add-contract-btn {
+  position: absolute;
+  width: 95px;
+  height: 29px;
+  left: 240px;
+  top: 470px;
+
+  background: #78d187;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-color: transparent;
+  color: #ffffff;
+}
+
+.add-contract-icon {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 303px;
+  top: 474px;
+  background-image: url("./images/icon_add_btn.svg");
+}
