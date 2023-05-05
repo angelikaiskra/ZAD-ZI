@@ -143,7 +143,7 @@ body {
   height: 65px;
   position: absolute;
   right: 15px;
-  bottom: 60px;
+  top: 720px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -499,4 +499,174 @@ button:hover {
   line-height: 24px;
 
   color: #868686;
+}
+.przedluz {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 72px;
+  width: 200px;
+  margin-left: 40px;
+  text-decoration: underline;
+  color: #000000;
+}
+
+.przedluz > a:link {
+  color: #000000;
+}
+
+.przedluz > a:link:hover {
+  color: goldenrod;
+}
+
+.temp-container {
+  display: flex;
+}
+
+.contracts-list .payment-item {
+  display: flex;
+  column-gap: 20px;
+  padding: 10px 15px;
+  background-color: rgba(223, 210, 250, 0.2);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  height: 103px;
+}
+
+.contracts-list .payment-item-premium {
+  display: flex;
+  column-gap: 20px;
+  padding: 10px 15px;
+  background-color: rgba(223, 210, 250, 0.2);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  height: 118px;
+}
+
+.contracts-list .payment-item-popular {
+  display: flex;
+  column-gap: 20px;
+  padding: 10px 15px;
+  background-color: rgba(223, 210, 250, 0.2);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  height: 150px;
+  border: darkgreen solid 2px;
+}
+
+.contracts-list .payment-item > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contracts-list .payment-item-premium > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contracts-list .payment-item-popular > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.contracts-list .payment-item-popular > span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contracts-list .payment-item > .bottom-popular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contracts-list .payment-item-popular > .bottom-popular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popular {
+  height: 150px;
+}
+
+.payment-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.payment-people {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #8d8d8d;
+  margin-top: 8px;
+}
+
+.payment-payment {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  margin-top: 20px;
+  color: #000000;
+}
+
+.upper-popular {
+  padding: 10px;
+  padding-bottom: 13px;
+  border-bottom: darkgreen 2px solid;
+  color: darkgreen;
+  font-size: 17px;
+}
+
+.procent {
+  font-weight: 600;
+  font-size: 24px;
+  margin: 7px;
+}
+
+.premium {
+  color: goldenrod;
+}
+
+.payment-people-premium {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #8d8d8d;
+  margin-top: 8px;
+}
+
+.powrot{
+  text-align: center;
+  align-items: center;
+
+}
+
+.powrot > a:link{
+  text-align: center;
 }
