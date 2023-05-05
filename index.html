@@ -1,99 +1,158 @@
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <title>Zarządzanie produktem</title>
-    <meta name="description" content="Super stronka na zarządzanie"/>
-    <meta name="author" content="Grupa "/>
-    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet"/>
+    <meta name="description" content="Super stronka na zarządzanie" />
+    <meta name="author" content="Grupa " />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="styles.css"/>
-</head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
-<div class="wrapper">
-    <div class="main">
+  <body>
+    <div class="wrapper">
+      <div class="main">
         <h1>Lista kontraktów</h1>
 
         <div class="content">
-            <div class="search">
-                <label>
-                    <span class="icon icon--search"></span>
-                    <input type="text" placeholder="Szukaj" class="search"/>
-                </label>
-            </div>
+          <div class="search">
+            <label>
+              <span class="icon icon--search"></span>
+              <input type="text" placeholder="Szukaj" class="search" />
+            </label>
+          </div>
 
-            <div class="contracts-list">
-                <div class="contracts-list-header">
-                    <div class="list-item-number">Numer</div>
-                    <div class="list-item-name">Imię i Nazwisko</div>
-                    <div class="list-item-status">Status</div>
-                </div>
-                <div class="contracts-list-content">
-                    <div class="list-item">
-                        <div class="list-item-number">1</div>
-                        <div class="list-item-name">Robert Kowalski</div>
-                        <div class="list-item-status">Aktywny</div>
-                        <div class="list-item-archived"><span class="circle circle--green"></span></div>
-                        <div class="list-item-action"><a href="contract.html"><span class="icon icon--eye"></span></a></div>
-                    </div>
-                    <div class="list-item">
-                        <div class="list-item-number">2</div>
-                        <div class="list-item-name">Anastazja Żuk</div>
-                        <div class="list-item-status">Aktywny</div>
-                        <div class="list-item-archived"><span class="circle circle--green"></span></div>
-                        <div class="list-item-action"><a href="contract.html"><span class="icon icon--eye"></span></a></div>
-                    </div>
-                    <div class="list-item">
-                        <div class="list-item-number">3</div>
-                        <div class="list-item-name">Marysia Kowal</div>
-                        <div class="list-item-status">Aktywny</div>
-                        <div class="list-item-archived"><span class="circle circle--green"></span></div>
-                        <div class="list-item-action"><a href="contract.html"><span class="icon icon--eye"></span></a></div>
-                    </div>
-                    <div class="list-item">
-                        <div class="list-item-number">4</div>
-                        <div class="list-item-name">Horacy Goleń</div>
-                        <div class="list-item-status">Aktywny</div>
-                        <div class="list-item-archived"><span class="circle circle--green"></span></div>
-                        <div class="list-item-action"><a href="contract.html"><span class="icon icon--eye"></span></a></div>
-                    </div>
-                    <div class="list-item">
-                        <div class="list-item-number">5</div>
-                        <div class="list-item-name">Ania Pietruszka</div>
-                        <div class="list-item-status">Aktywny</div>
-                        <div class="list-item-archived"><span class="circle circle--green"></span></div>
-                        <div class="list-item-action"><a href="contract.html"><span class="icon icon--eye"></span></a></div>
-                    </div>
-                    <div class="list-item">
-                        <div class="list-item-number">6</div>
-                        <div class="list-item-name">Wiesław Sum</div>
-                        <div class="list-item-status">Aktywny</div>
-                        <div class="list-item-archived"><span class="circle circle--green"></span></div>
-                        <div class="list-item-action"><a href="contract.html"><span class="icon icon--eye"></span></a></div>
-                    </div>
-                    <div class="list-item">
-                        <div class="list-item-number">7</div>
-                        <div class="list-item-name">Mikołaj Werski</div>
-                        <div class="list-item-status">Archiwalny</div>
-                        <div class="list-item-archived"><span class="circle circle--red"></span></div>
-                        <div class="list-item-action"><a href="contract.html"><span class="icon icon--eye"></span></a></div>
-                    </div>
-                    <div class="list-item">
-                        <div class="list-item-number">8</div>
-                        <div class="list-item-name">Marcin Bułka</div>
-                        <div class="list-item-status">Archiwalny</div>
-                        <div class="list-item-archived"><span class="circle circle--red"></span></div>
-                        <div class="list-item-action"><a href="contract.html"><span class="icon icon--eye"></span></a></div>
-                    </div>
-                </div>
+          <div class="contracts-list">
+            <div class="contracts-list-header">
+              <div class="list-item-number">Numer</div>
+              <div class="list-item-name">Imię i Nazwisko</div>
+              <div class="list-item-status">Status</div>
             </div>
-
-            <a href="add.html" class="floating-btn"><span class="icon icon--add"></span></a>
+            <div class="contracts-list-content">
+              <div class="list-item">
+                <div class="list-item-number">1</div>
+                <div class="list-item-name">Robert Kowalski</div>
+                <div class="list-item-status">Aktywny</div>
+                <div class="list-item-archived">
+                  <span class="circle circle--green"></span>
+                </div>
+                <div class="list-item-action">
+                  <a href="contract.html"
+                    ><span class="icon icon--eye"></span
+                  ></a>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="list-item-number">2</div>
+                <div class="list-item-name">Anastazja Żuk</div>
+                <div class="list-item-status">Aktywny</div>
+                <div class="list-item-archived">
+                  <span class="circle circle--green"></span>
+                </div>
+                <div class="list-item-action">
+                  <a href="contract.html"
+                    ><span class="icon icon--eye"></span
+                  ></a>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="list-item-number">3</div>
+                <div class="list-item-name">Marysia Kowal</div>
+                <div class="list-item-status">Aktywny</div>
+                <div class="list-item-archived">
+                  <span class="circle circle--green"></span>
+                </div>
+                <div class="list-item-action">
+                  <a href="contract.html"
+                    ><span class="icon icon--eye"></span
+                  ></a>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="list-item-number">4</div>
+                <div class="list-item-name">Horacy Goleń</div>
+                <div class="list-item-status">Aktywny</div>
+                <div class="list-item-archived">
+                  <span class="circle circle--green"></span>
+                </div>
+                <div class="list-item-action">
+                  <a href="contract.html"
+                    ><span class="icon icon--eye"></span
+                  ></a>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="list-item-number">5</div>
+                <div class="list-item-name">Ania Pietruszka</div>
+                <div class="list-item-status">Aktywny</div>
+                <div class="list-item-archived">
+                  <span class="circle circle--green"></span>
+                </div>
+                <div class="list-item-action">
+                  <a href="contract.html"
+                    ><span class="icon icon--eye"></span
+                  ></a>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="list-item-number">6</div>
+                <div class="list-item-name">Wiesław Sum</div>
+                <div class="list-item-status">Aktywny</div>
+                <div class="list-item-archived">
+                  <span class="circle circle--green"></span>
+                </div>
+                <div class="list-item-action">
+                  <a href="contract.html"
+                    ><span class="icon icon--eye"></span
+                  ></a>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="list-item-number">7</div>
+                <div class="list-item-name">Mikołaj Werski</div>
+                <div class="list-item-status">Archiwalny</div>
+                <div class="list-item-archived">
+                  <span class="circle circle--red"></span>
+                </div>
+                <div class="list-item-action">
+                  <a href="contract.html"
+                    ><span class="icon icon--eye"></span
+                  ></a>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="list-item-number">8</div>
+                <div class="list-item-name">Marcin Bułka</div>
+                <div class="list-item-status">Archiwalny</div>
+                <div class="list-item-archived">
+                  <span class="circle circle--red"></span>
+                </div>
+                <div class="list-item-action">
+                  <a href="contract.html"
+                    ><span class="icon icon--eye"></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <temp-container>
+            <div class="przedluz">
+              <a href="platnosc.html">Przedłuż dostęp</a>
+            </div>
+            <div>
+              <a href="add.html" class="floating-btn"
+                ><span class="icon icon--add"></span
+              ></a>
+            </div>
+          </temp-container>
         </div>
+      </div>
     </div>
-</div>
-</body>
+  </body>
 </html>
