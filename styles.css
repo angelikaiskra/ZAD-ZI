@@ -520,6 +520,10 @@ button:hover {
   color: goldenrod;
 }
 
+.przedluz > a:visited {
+  color: #000000;
+}
+
 .temp-container {
   display: flex;
 }
@@ -661,12 +665,15 @@ button:hover {
   margin-top: 8px;
 }
 
-.powrot{
+.powrot {
   text-align: center;
   align-items: center;
-
 }
 
-.powrot > a:link{
+.powrot > a:link {
   text-align: center;
+}
+
+.powrot > a:visited {
+  color: #000000;
 }
